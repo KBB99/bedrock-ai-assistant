@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^0.0.9",
+    "@ai-sdk/amazon-bedrock": "^1.0.5",
     "@aws-amplify/ui-react": "^6.1.13",
     "@langchain/aws": "^0.1.0",
     "@radix-ui/react-dialog": "^1.1.1",
@@ -18,7 +18,7 @@
     "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
-    "ai": "^3.2.39",
+    "ai": "^3.4.33",
     "aws-amplify": "^6.4.0",
     "aws-jwt-verify": "^4.0.1",
     "class-variance-authority": "^0.7.0",

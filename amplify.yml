@@ -15,7 +15,7 @@ frontend:
         - npm run build
     postBuild:
       commands:
-        - echo '{}' > dist/deploy-manifest.json
+        - echo '{"version":1,"framework":{"name":"vite","version":"6.3.4"},"imageOptimization":{"loader":"default"},"routes":[{"src":".*","dest":"/index.html","status":200}]}' > dist/deploy-manifest.json
   artifacts:
     baseDirectory: dist
     files:

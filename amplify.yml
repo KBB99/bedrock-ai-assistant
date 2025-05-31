@@ -15,7 +15,7 @@ frontend:
         - npm run build
     postBuild:
       commands:
-        - echo "Build completed successfully"
+        - echo '{"version":1}' > dist/deploy-manifest.json
   artifacts:
     baseDirectory: dist
     files:
